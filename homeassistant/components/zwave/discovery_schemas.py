@@ -203,6 +203,7 @@ DISCOVERY_SCHEMAS = [
      const.DISC_VALUES: dict(DEFAULT_VALUES_SCHEMA, **{
          const.DISC_PRIMARY: {
              const.DISC_COMMAND_CLASS: [
+                 const.COMMAND_CLASS_INDICATOR,
                  const.COMMAND_CLASS_SENSOR_MULTILEVEL,
                  const.COMMAND_CLASS_METER,
                  const.COMMAND_CLASS_ALARM,
